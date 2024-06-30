@@ -2,10 +2,8 @@ var express = require("express");
 var app = new express();
 var fs = require("fs");
 
-// const port = require("./port.json"); // Load the configuration file
-// const PORT = port.PORT;
-
-let PORT = 8080;
+const port = require("./port.json"); // Load the configuration file
+const PORT = port.PORT;
 
 app.listen(PORT, function () {
   console.log(`listening on port ${PORT}`);
