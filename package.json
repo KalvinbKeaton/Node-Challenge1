@@ -1,0 +1,14 @@
+{
+  "name": "node-challenge1",
+  "version": "1.0.0",
+  "description": "Challenge for TXT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kalvin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
